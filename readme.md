@@ -2,8 +2,6 @@
 
 A lightweight browser extension that provides a fast and focused way to access Google's AI Search Mode using a keyboard shortcut. Instead of opening a distracting new tab, this extension launches your query in a clean, dedicated popup window that automatically closes when you're done.
 
-*(Suggestion: You can record a short GIF of the extension working and replace the link above to show it off\!)*
-
 ## **Features**
 
 * **🚀 Keyboard Shortcut:** Press Ctrl+Shift+K (or Cmd+Shift+K on Mac) to instantly open the search prompt from any page. You can change shorcut keys in extension shortcuts in settings.
