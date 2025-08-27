@@ -6,7 +6,7 @@ A lightweight browser extension that provides a fast and focused way to access G
 
 ## **Features**
 
-* **🚀 Keyboard Shortcut:** Press Ctrl+Shift+K (or Cmd+Shift+K on Mac) to instantly open the search prompt from any page.  
+* **🚀 Keyboard Shortcut:** Press Ctrl+Shift+K (or Cmd+Shift+K on Mac) to instantly open the search prompt from any page. You can change shorcut keys in extension shortcuts in settings.
 * **✨ Focused Window:** Your search query opens in a clean, separate popup window, free from the clutter of a normal browser tab.  
 * **🧠 Auto-Close:** The focused window smartly closes itself as soon as you click away, keeping your workspace tidy.  
 * **🎨 Clean Layout:** Custom CSS is injected into the Google Search page to hide unnecessary elements and fix layout issues, ensuring the content fits perfectly within the window.
