@@ -1,0 +1,40 @@
+/*
+  This file contains custom styles that we will inject into the 
+  Google Search results page to make it fit our narrow window.
+*/
+
+/* Force the entire page to hide horizontal overflow */
+html, body {
+    overflow-x: hidden !important;
+}
+
+/* Hide the left-side navigation panel (History, Edit, etc.) */
+#leftnav {
+    display: none !important;
+}
+
+/* Hide the footer which can sometimes cause width issues */
+#foot {
+    display: none !important;
+}
+
+/* Adjust the main content area to take up the full width */
+#center_col {
+    margin: 0 10px !important;
+    padding: 0 !important;
+}
+
+/*
+  THIS IS THE FINAL FIX:
+  This is a highly aggressive rule that targets the main AI response 
+  container (.i8s4ff), its direct child (.M63k5d), and every single 
+  element (*) inside of it. It forces every known text-wrapping 
+  property onto them.
+*/
+.i8s4ff, .M63k5d, .M63k5d * {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
